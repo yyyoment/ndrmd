@@ -1,0 +1,10 @@
+Package: ndrmd
+Type: Package
+Title: R Markdown Template
+Version: 0.1.0
+Author: Yun Yan
+Maintainer: Yun Yan <yyan5@nd.edu>
+Description: R Markdown Template
+License: 
+Encoding: UTF-8
+LazyData: true

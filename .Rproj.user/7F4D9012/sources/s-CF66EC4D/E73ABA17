@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1579054417859.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4060669486",
+    "id" : "E73ABA17",
+    "lastKnownWriteTime" : 1579054417,
+    "last_content_update" : 1579054417,
+    "path" : "G:/My Drive/coding/rpackage/test/Untitled/Untitled.Rmd",
+    "project_path" : null,
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

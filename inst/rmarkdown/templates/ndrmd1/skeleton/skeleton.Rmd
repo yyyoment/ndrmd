@@ -1,0 +1,62 @@
+---
+title: "A clean and uncluttered template"
+author: "[Yun Yan](https://github.com/yyyoment)"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+# !!! You can add your social media info here. Mail, Linkedin, Instagram, Github, Twitter are now available. Or just delete the field for no social media icon.
+mail: "yyan5@nd.edu"
+linkedin: "yan-yun"
+github: "yyyoment"
+home: "yyyoment.github.io/yan-yun/"
+# !!! You need to provide a logo and background image here !!! Or just delete the field for no image
+logo: "logo_gallery.png"
+bg: "spotify334.jpg"
+# !!! You can specify the theme color here
+color: "#69b3a2"
+output:
+  ndrmd::ndrmd1:
+    toc: TRUE
+    number_sections: FALSE
+    code_folding: "hide"
+---
+
+<style>
+div.color {
+    background-color:rgba(105, 179, 172, 0.15); 
+    border-radius: 9px; 
+    padding: 20px;
+    font-weight:500;
+    font-size: 18px;
+}
+</style>
+
+<br><br>
+
+> These are some texts for test.
+
+# Get the data
+***
+First of all, we need to load all the required packages.
+```{r, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(rmarkdown)    # You need this library to run this template.
+library(ndrmd)      # Install with devtools: install_github("yyyoment/ndrmd", force=TRUE)
+```
+
+# Summarize the data
+***
+Then I explain what is my input data and I load it. Here is how it looks like:
+```{r}
+# Show it:
+mtcars %>% head(5)
+```
+
+This file has `r nrow(mtcars)` lines and `r ncol(mtcars)` columns. It is ready to be analysed.
+
+```{r}
+# Here is the summary of the mtcar dataset:
+summary(mtcars)
+```
+
+<div class="color">
+If you want to write some analysis or conclusion, you can put it here.
+</div>

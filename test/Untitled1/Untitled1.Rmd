@@ -39,8 +39,24 @@ First of all, we need to load all the required packages.
 ```{r, message=FALSE, warning=FALSE}
 library(tidyverse)
 library(rmarkdown)    # You need this library to run this template.
-library(ndrmd)      # Install with devtools: install_github("yyyoment/ndrmd", force=TRUE)Install with devtools: install_github("yyyoment/ndrmd", force=TRUE)
+library(ndrmd)      # Install with devtools: install_github("yyyoment/ndrmd", force=TRUE)
 ```
+
+# Summarize the data
+***
+Here are 3 version of a circular barplot that you can find in the R graph gallery. Note that the figure is centered. You can change the size of the plot with fig.width and fig.height
+
+## test
+
+Here are 3 version of a circular barplot that you can find in the R graph gallery. Note that the figure is centered. You can change the size of the plot with fig.width and fig.height
+
+### test
+
+#### test
+
+##### test
+
+###### test
 
 Then I explain what is my input data and I load it. Here is how it looks like:
 ```{r}
@@ -51,7 +67,7 @@ mtcars %>% head(5)
 This file has `r nrow(mtcars)` lines and `r ncol(mtcars)` columns. It is ready to be analysed.
 
 ```{r}
-# Here is the summary of the mtcar datset:
+# Here is the summary of the mtcar dataset:
 summary(mtcars)
 ```
 
